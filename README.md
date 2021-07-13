@@ -62,19 +62,19 @@ The Project Uses Functional Components with Reacts Context API for majority of s
 │   ├── Loader.tsx : 8
 │   ├── Navbar.tsx : 28
 │   ├── SingleVideo.tsx : 44
-│   └── VideoChats.tsx : 252
+│   └── VideoChats.tsx : 308
 ├── context
-│   ├── AppProvider.tsx : 33
+│   ├── AppProvider.tsx : 35
 │   ├── AuthProvider.tsx : 107
-│   └── reducer.ts : 34
+│   └── reducer.ts : 37
 ├── firebaseConfig.ts : 9
 ├── index.tsx : 21
 ├── pages
-│   ├── AnonLogin.tsx : 88
+│   ├── AnonLogin.tsx : 77
 │   ├── ChatRoom.tsx : 27
 │   ├── Homepage.tsx : 72
 │   ├── Landingpage.tsx : 156
-│   ├── Room.tsx : 100
+│   ├── Room.tsx : 108
 │   └── WrongUrl.tsx : 20
 ├── react-app-env.d.ts : 11
 ├── styles :
@@ -82,8 +82,8 @@ The Project Uses Functional Components with Reacts Context API for majority of s
 │   ├── anonLogin.scss : 73
 │   ├── chat.scss : 216
 │   ├── index.scss : 70
-│   ├── landing.scss : 2007
-│   ├── loader.scss : 101
+│   ├── landing.scss : 206
+│   ├── loader.scss : 58
 │   └── room.scss : 203
 └── utils
     ├── PrivateRoute.js : 30
@@ -91,7 +91,7 @@ The Project Uses Functional Components with Reacts Context API for majority of s
     ├── const.ts : 23
     ├── types.ts : 23
     └── useDisconnect.ts : 10
-6 directories, 34 files, 2207 lines of code
+6 directories, 34 files, 2235 lines of code
 </pre>
 
 The Call Joining Logic Is In **/components/VideoChats.tsx** and the chat logic is in **/components/ChatLibrary.tsx**
@@ -121,7 +121,7 @@ Toast Notification when getting a new message
 
 Ability to share Your screen!
 
-![Conditional Rendering](./assets/handScreen.png)
+![Conditional Rendering](./assets/handscreen.png)
 
 Buttons conditionally rendering on the state.
 
