@@ -113,15 +113,27 @@ I used Socket-io and express for the server, Since the code base is quite small 
 
 ## 🤩 Feature Showcase
 
-![Handup](./assets/hand.png) Hand Emoji when person raises his hand
+![Handup](./assets/hand.png)
 
-![Hand up](./assets/toast.png) Toast Notification when getting a new message 
+Hand Emoji when person raises his hand
 
-![Screenshare](./assets/screenshare.png) Ability to share Your screen!
+![Hand up](./assets/toast.png)
 
-![Conditional Rendering](./assets/handscreen.png) Buttons conditionally rendering on the state.
+Toast Notification when getting a new message 
 
-![chatroom](./assets/chatroom.png) Chat Room for when you dont want to be in a video call!
+![Screenshare](./assets/screenshare.png)
 
-![chatlib](./assets/chatlib.png)Chat Library for when you are in a video call and want to chat!
+Ability to share Your screen!
+
+![Conditional Rendering](./assets/handscreen.png)
+
+Buttons conditionally rendering on the state.
+
+![chatroom](./assets/chatroom.png)
+
+Chat Room for when you dont want to be in a video call!
+
+![chatlib](./assets/chatlib.png)
+
+Chat Library for when you are in a video call and want to chat!
 
