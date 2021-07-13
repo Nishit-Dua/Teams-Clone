@@ -8,8 +8,6 @@ Live Link: [Engage Project](https://engage-project.ml)
 
 <img src="./assets/login.png" alt="Nishit Img" style="height:500px"/>
 
-
-
 ## **⚙️** Instructions To Run Locally
 
 **Note:** I am aware that I shouldn't expose my public keys on GitHub and restrict the CORS policies, but I didn't so the project can can be tested on any machine without any hiccup.
@@ -23,8 +21,6 @@ Live Link: [Engage Project](https://engage-project.ml)
 <img src="./assets/landing.png" alt="Landing" style="height:500px"/>
 
 ![image-20210713171912422](./assets/video.png)
-
-
 
 ## **🎯** Features
 
@@ -119,13 +115,13 @@ Hand Emoji when person raises his hand
 
 ![Hand up](./assets/toast.png)
 
-Toast Notification when getting a new message 
+Toast Notification when getting a new message
 
 ![Screenshare](./assets/screenshare.png)
 
 Ability to share Your screen!
 
-![Conditional Rendering](./assets/handscreen.png)
+![Conditional Rendering](./assets/handScreen.png)
 
 Buttons conditionally rendering on the state.
 
@@ -136,4 +132,3 @@ Chat Room for when you dont want to be in a video call!
 ![chatlib](./assets/chatlib.png)
 
 Chat Library for when you are in a video call and want to chat!
-
