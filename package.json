@@ -1,0 +1,16 @@
+{
+  "name": "engage-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --prefix \"[{name}]\" --names \"SERVER,CLIENT\" --prefix-colors \"bgCyan.black,bgWhiteBright.black\" \"cd server && npm run dev:js\" \"cd client && yarn start\"",
+    "start:ts": "concurrently --prefix \"[{name}]\" --names \"SERVER-TSC,SERVER,CLIENT\" --prefix-colors \"bgBlue.white,bgCyan.black,bgWhiteBright.black\" \"cd server && yarn run watch\" \"cd server && yarn start\" \"cd client && yarn dev\"",
+    "ready": "yarn install && (cd client && yarn install) && (cd server && npm install)"
+  },
+  "author": "nishit-dua",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
